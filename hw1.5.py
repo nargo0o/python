@@ -7,8 +7,9 @@ earnings = int(input('Введите выручку фирмы: '))
 costs = int(input('Введите издержки фирмы: '))
 if earnings > costs:
     print('Прибыль')
-    efficiency = earnings / costs
-    print('Рентабельность выручки: ', efficiency)
+    profit = earnings - costs #прибыль
+    efficiency = profit / earnings
+    print(f'Рентабельность выручки: {efficiency}')
     num_of_workers = int(input('Введите число сотрудников: '))
     earnings_for_workers = efficiency / num_of_workers
     print('Прибыль фирмы в расчете на одного сотрудника: ', earnings_for_workers)
@@ -16,4 +17,3 @@ elif earnings == costs:
     print('Фирма пока работает бе прибыли и убыток.')
 else:
     print('Убыток')
-
