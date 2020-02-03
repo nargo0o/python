@@ -1,0 +1,13 @@
+Один — 1
+Two — 2
+Three — 3
+Four — 4One — 1
+Два — 2
+Three — 3
+Four — 4One — 1
+Two — 2
+Три — 3
+Four — 4One — 1
+Two — 2
+Three — 3
+Четыре — 4
